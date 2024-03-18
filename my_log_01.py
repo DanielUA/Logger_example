@@ -1,6 +1,9 @@
 import logging
 
-logging.basicConfig(level=logging.DEBUG, format="%(asctime)s %(funcName)15s - %(message)s")
+logging.basicConfig(
+    level=logging.DEBUG, format="%(asctime)s %(funcName)15s - %(message)s"
+)
+
 
 def buz(num: int):
     foo = 100
@@ -8,5 +11,6 @@ def buz(num: int):
     logging.debug(f"result: {result}")
     return result
 
-if __name__== "__main__":
+
+if __name__ == "__main__":
     buz(10)

@@ -12,11 +12,11 @@ def buz(num: int):
     logger.debug(f"result: {result}")
     return result
 
+
 def foo():
     logger.error("AAAAA!!")
 
 
-
-if __name__== "__main__":
+if __name__ == "__main__":
     buz(10)
     foo()
